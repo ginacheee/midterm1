@@ -1,5 +1,5 @@
 class Paint {
-  float rectSize = 25;
+  float rectSize = 25; // size of color icons
   
   float sizeSmall = 4; // size of small brush stroke
   float sizeMedium = 14; // size of medium brush stroke
@@ -108,9 +108,9 @@ class Paint {
     // clear button
     strokeWeight(1);
     fill(white);
-    rect(600,10,60,60);
+    rect(520,10,60,60);
     fill(black);
-    text("clear",616,45);
+    text("clear",536,45);
     
   }
   
@@ -206,7 +206,7 @@ class Paint {
   
   void clearCanvas() {
     // clears  canvas
-    if(mouseX >= 600 && mouseX <= 660 && mouseY >= 10 && mouseY <= 70)
+    if(mouseX >= 520 && mouseX <= 580 && mouseY >= 10 && mouseY <= 70)
        background(white);
   }
 }
