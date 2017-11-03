@@ -4,9 +4,9 @@ Paint paints;
 float size; // size of brush
 color col; // brush color
 
-int sizes = 0;
+int sizes = 0; // size of brush
   
-boolean thicc = false;
+boolean thicc = false; // checks to see if brush is set on changing or unchanging brush size
  
 void setup() {
   size(800,600);
@@ -21,9 +21,6 @@ void draw() {
   
   bru.display(mouseX,mouseY,pmouseX,pmouseY);
   paints.display();
-}
-
-void mouseReleased() {
 }
 
 void mouseClicked() {
