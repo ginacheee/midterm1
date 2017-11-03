@@ -16,6 +16,7 @@ class Brush {
     }
     else if(mousePressed) {
       strokeWeight(size);
+      stroke(col);
       line(mouseX,mouseY,pmouseX,pmouseY); // draws line
 
     }
